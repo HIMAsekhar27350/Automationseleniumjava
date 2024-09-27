@@ -1,0 +1,429 @@
+java   programming:-
+
+we  have  to  learn  structure  of  java program:
+
+class ClassName
+{
+public  static  void  main(String args[])
+{
+decleration;
+input  statements;
+process  statements;
+output  statements;
+}
+}
+
+decleration:-
+we have  to  declare  variables  along  with  datatypes.
+10 ---->int
+4.6 ----->double
+madanapalli----->String
+int,double,String-------->datatypes
+input  statements:-
+assigning  the  value
+process  statement:
+formula /logic/  business  logic
+output  statement:-
+System.out.println()
+System.out.print()
+System.out.printf()
+
+note:-System,String  (S---->must  be uppercase)
+----------------------------------
+()---->pair  of paranthysis
+(--->open paranthysis
+)--->close  paranthysis
+its  function
+-----------------------------------
+<>---->pair  of  angle  brackets
+<-->open  angle  bracket
+>--->close  angle  bracket
+-----------------------------------
+{}--->pair  of  braces
+{-->open  brace
+}-->close brace
+---------------------------------
+[]---->pair  of brackets
+[--->open  bracket
+]--->close bracker
+its  used  for arrays
+-------------------------------
+Alphabets  A  t z  including  _ (under score)
+in  computers   _  is  also  one  alphabet
+no .of alphabets: 27 a to z ,_
+-----------------------------------------
+<=   >=    !=
+---------------------------------------
+
+decleration;
+input;
+process;
+output;
+
+System.out.println("hi");
+
+java  program  to  find  addition of  3  numbers?
+   add=a+b+c
+class  Demo
+{
+    public  static  void  main(String args[])
+    {
+       int    a,b,c,add;
+       a=6;
+       b=7;
+       c=2;
+       add=a+b+c;
+       System.out.println(add);
+    }
+}
+System.out.println("add="+add);
+System.out.println("hi himashekar how r u="+add);
+System.out.println("u wrost  java i am  not  feeling welu stipid="+add);
+
+java   program  to  find  multiplication of  2  numbers?
+product=x*y
+
+class Demo
+{
+    public  static  void  main(String args[])
+    {
+        int x,y,product;
+        x=5;
+        y=6;
+        product=x*y;
+        System.out.println(product);
+    }
+}
+System.out.println("product="+product);
+
+
+java  program  to  find  substraction of  2  numbers?
+sub=a-b
+class Demo
+{
+    public static void main(String args[])
+    {
+        int  a,b,sub;
+        a=70;
+        b=6;
+        sub=a-b;
+        System.out.println("substraction  of  2   numbers="+sub);
+    }
+}
+java  program  to  find
+1.add  2.minus  3.product
+
+add=a+b
+sub=a-b
+product=a*b
+
+class Demo
+{
+    public  static  void  main(String args[])
+    {
+        int a,b,add,sub,product;
+        a=10;
+        b=5;
+        add=a+b;
+        sub=a-b;
+        product=a*b;
+        System.out.println("addition="+add);
+        System.out.println("minus="+sub);
+        System.out.println("product="+product);
+
+    }
+}
+
+System.out.print("addition="+add);
+        System.out.print("minus="+sub);
+        System.out.print("product="+product);
+
+
+java  program  to  find  area  of  rectangle?
+class Demo
+{
+    public  static void main(String args[])
+    {
+        int l,b,area;
+        l=2;
+        b=5;
+        area=l*b;
+        System.out.println("area  of  rectangle="+area);
+    }
+}
+
+java  program  to  find  area of  triangle?
+class Demo
+{
+    public  static  void  main(String args[]){
+        int b,h;
+        double area;
+        b=6;
+        h=7;
+        area=0.5*b*h;
+        System.out.println("area="+area);
+    }
+}
+
+java  program  to  find
+1.area  of  square
+2.perimeter  of  square
+class Demo
+{
+    public  static  void  main(String args[]){
+        int  s,area,perimeter;
+        s=6;
+        area=s*s;
+        perimeter=4*s;
+        System.out.println("area="+area);
+        System.out.println("perimeter="+perimeter);
+
+
+    }
+}
+java  program  to find
+1.area  of  circle
+2.perimeter  of  circle
+class Demo
+{
+    public  static  void  main(String args[]){
+        int  r;
+        double  area,perimeter;
+        r=6;
+        area=3.14*r*r;
+        perimeter=2*3.14*r;
+        System.out.println("area="+area);
+        System.out.println("perimeter="+perimeter);
+
+    }
+}
+java program  for PE n Ke
+class Demo
+{
+    public  static  void  main(String args[]){
+        int m,g,h,v,pe;
+        double  ke;
+        m=7;
+        g=6;
+        h=5;
+        v=5;
+        pe=m*g*h;
+        ke=0.5*m*v*v;
+        System.out.println("pe="+pe);
+        System.out.println("ke="+ke);
+
+
+    }
+}
+java  program  for  1.area of rectange  2.perimeter of  rectangle
+java  program  for  volume  of  cylinder
+java  program  for  volume  of  cone
+java  program  for
+1. inches  to  feet
+2. feet  to  inches
+java  program  to  find
+1.celcious  to  fareen heat
+2.fareenheat  to  celcious
+
+arithmetic  operators:
++-->addition
+-  --->substraction
+* -->multiplication
+/  --->division
+%   ---->division
+comprassion  operators:
+< ,> ,<=,>=,!=,==
+
+
+
+Branching  statements  in JAVA:
+java  supports  following  braching statements
+1.if  statement
+2.if  else  statement
+3.nested  if
+4.switch statement
+
+comprassion  operators  /relational  operators
+<,>,<=,>=,!=,==
+logical  operators:
+&&---->logic  AND(All conditions  must  satisify)
+||--->logic  OR(any  one  condition can  satisify)
+!---->logic  not
+
+if  statement:
+if  is  a  keyword  that will checks  the  condition.
+if  condition  is true,Then  true  block  of  statements  will be  execute.
+if  condition  is  false ,then  the  true  block  of  statements  will not execute.
+
+syntax:
+if(condition) T
+{
+true  block of  statements
+to  be  execute;
+}
+java  program  to  find  biggest  of   2  numbers?
+class HelloWorld {
+    public static void main(String[] args) {
+        int a,b;
+        a=8;
+        b=6;
+        if(a>b)
+        {
+        System.out.println("big is  a="+a);
+        }
+        if(b>a)
+        {
+        System.out.println("big is  b="+b);
+        }
+
+        }
+}
+
+java  program  to  check  n is  even r  odd?
+class HelloWorld {
+    public static void main(String[] args) {
+        int n;
+        n=7;
+        if(n%2==0)
+        {
+        System.out.println("n is  even");
+        }
+        if(n%2!=0)
+        {
+        System.out.println("n is  odd");
+        }
+
+        }
+}
+
+java  program  to  check  person is  elegible  for  voting r not?
+class HelloWorld {
+    public static void main(String[] args) {
+        int age;
+        age=15;
+        if(age>=18)
+        {
+        System.out.println("person can  vote");
+        }
+        if(age<18)
+        {
+        System.out.println("person cannot vote");
+        }
+
+        }
+}
+
+java  program  to  find smallest  of 2  numbers?
+
+java  progam  to  check  student  is  pass r  fail?
+s,e,m
+s>=35 && e>=35 && m>=35
+pass
+
+s<35 || e<35 ||  m<35
+
+fail
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int e,s,m;
+        e=36;
+        s=67;
+        m=23;
+        if(e>=35 && s>=35 && m>=35)
+        {
+        System.out.println("student  is  pass");
+        }
+        if(e<35 ||  s<35 || m<35)
+        {
+        System.out.println("student is fail");
+        }
+
+        }
+}
+
+java  progam  to  accept  n
+output
+1.if  n  is  +ve  ,then  am  positive
+2.if  n  is  -ve  ,then  am  negtive
+3.if  n  is  0  ,then  am  ZERO
+
+
+
+if  statement:
+interview question:
+what do u  understand by If?
+if  statement  is  one  way decission  making.
+
+if(con)
+{
+statements;
+}
+
+if else  statement:
+if  is  a  keyword that  will  check  the  condition.
+if  condition  is  true,then  the  true  block  of  statements  will execute.
+if  condition is false,then the false block  of  statements  will execute(else part )
+what do u  understand by If?
+if else  statement  is  one  way decission  making.
+
+its  two way decission making  statement.
+
+if(condition)
+{
+true  block  of  statements;
+}
+
+else
+{
+false block  of  statements;
+}
+
+java  programm to  find  biggest  of 2  numbers?
+class HelloWorld {
+    public static void main(String[] args) {
+        int  a,b;
+        a=6;
+        b=4;
+        if(a>b)
+        {
+            System.out.println("big is  a");
+        }
+        else
+        {
+            System.out.println("big is  b");
+        }
+    }
+}
+
+program for even r odd?
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int  n;
+        n=9;
+        if(n%2==0)
+        {
+            System.out.println("n is  even");
+        }
+        else
+        {
+            System.out.println("n is odd");
+        }
+    }
+}
+program  for  person eligible  for  voting  r not?
+class HelloWorld {
+    public static void main(String[] args) {
+        int  age;
+        age=60;
+        if(age>=18)
+        {
+            System.out.println("person can vote");
+        }
+        else
+        {
+            System.out.println("person cannot vote");
+        }
+    }
+}
