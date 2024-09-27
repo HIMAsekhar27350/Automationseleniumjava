@@ -12,9 +12,8 @@ public class edgeBrowers {
         driver.get("https://google.com");
         driver.manage().window().maximize();
         Thread.sleep(3000);
-        //driver.findElement(By.
-        //driver.manage().window().minimize();
-        //Thread.sleep(3000);
-        //driver.close();
+        driver.manage().window().minimize();
+        Thread.sleep(3000);
+        driver.close();
     }
 }
