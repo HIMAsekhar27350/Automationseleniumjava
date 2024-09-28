@@ -15,12 +15,15 @@ public class HyperLinks {
         Thread.sleep(3000);
         List<WebElement> l=driver.findElements(By.tagName("a"));
         System.out.println("In Google Wedsite Hyperlinks ="+l.size());
-        int i = 1;
-        while (i<=l.size()){
+        //int i = 1;
+        /*while (i<=l.size()){
             //System.out.println(i+" "+l.get(i).getText());
             System.out.println(i+" "+l.get(i).getAttribute("href"));
             i++;
+        }*/
+        for(int i=1;i<l.size();i++){
+            System.out.println(l.get(i).getText());
         }
-        driver.close();
+        driver.quit();
     }
 }
