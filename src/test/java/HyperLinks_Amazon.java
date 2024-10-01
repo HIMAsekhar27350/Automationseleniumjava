@@ -22,5 +22,6 @@ public class HyperLinks_Amazon {
            System.out.println(links.get(i).getAttribute("href"));
             i++;
         }
+       driver.close();
     }
 }
