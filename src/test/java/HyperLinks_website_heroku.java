@@ -20,5 +20,6 @@ public class HyperLinks_website_heroku {
             System.out.println(i+" "+links.get(i).getAttribute("class"));
             i++;
         }
+        driver.close();
     }
 }
