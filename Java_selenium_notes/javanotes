@@ -428,3 +428,192 @@ class HelloWorld {
     }
 }
 27 sep 2024
+
+
+String :
+it  is  defined  as  group  of  characters
+represented  with  in  double  quots.
+Ex:
+"v4 institiue" ,"283782", "%%$%$%".
+
+in  java  String  can  be  defined in  2  ways:
+1. using  new  keyword
+2. using literal
+
+using  new  keyword:-
+
+String  name;
+name=new  String("v4");
+or
+String  name=new String("v4");
+class HelloWorld {
+    public static void main(String[] args) {
+        String name;
+        name=new  String("pallavi");
+        System.out.println(name);
+
+    }
+}
+
+
+using  literal:
+String name="pallvai";
+class HelloWorld {
+    public static void main(String[] args) {
+        String name="pallavi";
+        System.out.println(name);
+
+    }
+}
+
+
+String  url;
+url="https://www.google.com";
+d.get(url);
+
+
+String url=new String("https://www.google.com");
+
+d.get(url);
+
+memory:
+what  is the meaning  of  string pool?
+
+it's  a  memory  to  store  only  strings.
+
+
+
+
+charAt();
+
+Stringvariable.charAt(index);
+
+
+String name="pallavi";
+name.charAt(0);
+class HelloWorld {
+    public static void main(String[] args) {
+        String name="pallvai";
+        System.out.println(name.charAt(5));
+
+    }
+}
+
+String name="pallavi";
+char ch;
+ch=name.charAt(2);
+System.out.println(ch);
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String name="pallavi";
+char ch;
+ch=name.charAt(4);
+System.out.println(ch);
+
+    }
+}
+
+length():
+it  counts  no.of  characters  including  spaces.
+String  name="pallavi";
+int l;
+l=name.length();
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String  name;
+        name="hema sekhar";
+        int  l;
+        l=name.length();
+        System.out.println(l);
+    }
+}
+
+
+java  program  to  print  single characters  from String?
+class HelloWorld {
+    public static void main(String[] args) {
+        String  name;
+        int l;
+        name="pallavi";
+        l=name.length();
+        for(int i=0;i<l;i++){
+            System.out.println(name.charAt(i));
+        }
+    }
+}
+
+
+String url;
+url="https://www.facebook.com";
+
+java  program  for
+1.  finding  length  of url
+2. print  character  by  character
+
+
+compareTo():-
+
+it  will  compare  2  strings  and  gets  boolean(t/f)  values;
+class HelloWorld {
+    public static void main(String[] args) {
+        String  n1="renuka";
+        String n2="ravi";
+        System.out.println(n1.compareTo(n2));
+
+    }
+}
+
+concat():
+
+it  will combined  two  string.
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String  n1="hima";
+        String n2="ravi";
+        System.out.println(n1.concat(n2));
+
+    }
+}
+
+
+in  java  we  can  concate  two  strings  using  +  operator
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String  n1="hima";
+        String n2="ravi";
+        System.out.println(n1+n2);
+
+    }
+}
+class HelloWorld {
+    public static void main(String[] args) {
+        String  n1="hima";
+        String n2="ravi";
+        String n3="kumar";
+        System.out.println(n1+n2+n3);
+
+    }
+}
+class HelloWorld {
+    public static void main(String[] args) {
+        String  n1=new String("hima");
+        String n2=new String("ravi");
+        String n3=new String("kumar");
+        System.out.println(n1+n2+n3);
+
+    }
+}
+
+
+
+
+charAt()
+length()
+compareTo()
+concat() / +
