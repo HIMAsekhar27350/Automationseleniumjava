@@ -617,3 +617,248 @@ charAt()
 length()
 compareTo()
 concat() / +
+
+
+equals():
+it  is  used  to compare  2  strings  togather  and  return boolean value.
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="dileep";
+        String n2="Dileep";
+        System.out.println(n1.equals(n2));
+
+
+
+
+    }
+}
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="dileep";
+        String n2="anil";
+        System.out.println(n1.equals(n2));
+
+    }
+}
+can we use  equals() to compare  2  numbers?
+no,we should not  compare  2  numbers  using equals().
+class HelloWorld {
+    public static void main(String[] args) {
+        int a=9;
+        int b=8;
+        System.out.println(n1.equals(n2));
+
+
+
+
+    }
+}
+error
+can  we  compare  2  strings  with   ==?
+yes  we can  compare  2  string  with == and equals()
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="aaa";
+        String n2="aaa";
+        System.out.println(n1.equals(n2));
+        System.out.println(n1==n2);
+
+
+
+
+    }
+}
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="aaa";
+        String n2=new String("aaa")
+        System.out.println(n1.equals(n2));
+        System.out.println(n1==n2);
+
+
+
+
+    }
+}
+
+
+
+
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String  n1="aaa";
+        String  n2="aaa";
+        String n3=new String("aaa");
+        System.out.println(n1==n2);
+        System.out.println(n1==n3);
+        System.out.println(n1.equals(n2));
+        System.out.println(n1.equals(n3));
+        System.out.println(n2.equals(n3));
+        System.out.println(n2==n3);
+        System.out.println(n1==n3);
+        System.out.println(n1.equals(n3));
+
+
+    }
+}
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="aaa";
+        String n2=new String("aaa");
+        if(n1==n2)
+        System.out.println("both  are  equal");
+        else
+        System.out.println("both are not  equal");
+
+
+    }
+}
+
+equalsIgnoreCase():
+
+it will compare  2 strings by ignoring upper and lower cases.
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="dileep";
+        String n2="Dileep";
+        System.out.println(n1.equals(n2));
+        System.out.println(n1.equalsIgnoreCase(n2));
+
+
+
+    }
+}
+
+
+replace():-
+we  can  replace
+1.single character  /  group of characters
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="hi have a nice day";
+        System.out.println(n1.replace('a','b'));
+    }
+}
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="hi have a nice day";
+        System.out.println(n1.replace("nice","good"));
+    }
+}
+
+substring():-
+it  is  uesd  to  display  part of the  string.
+user  have  to  provide  index(starting index n ending index).
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="www.google.com";
+        System.out.println(n1);
+        System.out.println(n1.substring(4,10));
+        System.out.println(n1.substring(9,12));
+
+    }
+}
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="FacebookFacebook helps you connect and share with the people in your life.";
+        System.out.println(n1);
+        System.out.println(n1.substring(4,10));
+
+
+    }
+}
+
+
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="www.google.com";
+        System.out.println(n1);
+        System.out.println(n1.substring(4,10));
+        System.out.println(n1.substring(4));
+
+
+    }
+}
+toUpperCase() n toLoweCase():
+
+converts  given  string  into  upper to lower case n visversa.
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="www.google.com";
+        String n2="WWW.FACEBOOK.COM";
+        System.out.println(n1);
+        System.out.println(n1.toUpperCase());
+        System.out.println(n2);
+        System.out.println(n2.toLowerCase());
+
+
+    }
+}
+
+
+split():-
+startsWith(): endsWith():-
+results  boolean  value.
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="madanapalli";
+        System.out.println(n1);
+        System.out.println(n1.startsWith("mad"));
+        System.out.println(n1.startsWith("maf"));
+        System.out.println(n1.endsWith("lli"));
+        System.out.println(n1.endsWith("lle"));
+
+
+
+
+
+
+    }
+}
+
+
+class HelloWorld {
+    public static void main(String[] args) {
+        String n1="https://www.facebook.com";
+        String n2="http://www.facebook.co.in";
+        System.out.println(n2.startsWith("http"));
+        System.out.println(n1.startsWith("https"));
+        System.out.println(n1.endsWith("com"));
+        System.out.println(n2.endsWith(".in"));
+
+
+
+
+
+
+    }
+}
+
+
+https://www.google.com
+https://www.google.co.in
+
+http://www.google.com
+http://www.google.co.in
+
+String  handling functions:
+charAt() ,length(),equals(),equalsIgnorecase(),split(),touppercase(),
+toLowerCase(),replace(),substring(),startsWith(),endsWith().
+
+
+converstion function:
+int-->String
+double--->String
+char--->String
