@@ -67,146 +67,178 @@ System.out.println("hi");
 
 ### 1. java  program  to  find  addition of  3  numbers?
 ``` java
-add=a+b+c
-class  Demo
-{
-public  static  void  main(String args[])
-{
-int    a,b,c,add;
-a=6;
-b=7;
-c=2;
-add=a+b+c;
-System.out.println(add);
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int a,b,c,add;
+        a = 10;
+        b = 20;
+        c = 30;
+        add = a+b+c;
+        System.out.println("Adding the Three Number = "+add);
+    }
 }
-}
-System.out.println("add="+add);
-System.out.println("hi himashekar how r u="+add);
-System.out.println("u wrost  java i am  not  feeling welu stipid="+add);
+```
+```output
+OUTPUT:
+
+Adding the Three Number = 60
+
+=== Code Execution Successful ===
 ```
 ### 2.java   program  to  find  multiplication of  2  numbers?
 ```java
-product=x*y
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 
-class Demo
-{
-public  static  void  main(String args[])
-{
-int x,y,product;
-x=5;
-y=6;
-product=x*y;
-System.out.println(product);
+class HelloWorld {
+    public static void main(String[] args) {
+        int a,b,multiplication;
+        a = 10;
+        b = 20;
+        multiplication = a*b;
+        System.out.println("multiplication the Three Number = "+multiplication);
+    }
 }
-}
-System.out.println("product="+product);
+```
+```output
+multiplication the Three Number = 200
+
+=== Code Execution Successful ===
 ```
 ### 3.java  program  to  find  substraction of  2  numbers?
 ```java
-sub=a-b
-class Demo
-{
-public static void main(String args[])
-{
-int  a,b,sub;
-a=70;
-b=6;
-sub=a-b;
-System.out.println("substraction  of  2   numbers="+sub);
-}
-}
-```
-### 4.java  program  to  find?
-```java
-1.add  2.minus  3.product
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 
-add=a+b
-sub=a-b
-product=a*b
-
-class Demo
-{
-public  static  void  main(String args[])
-{
-int a,b,add,sub,product;
-a=10;
-b=5;
-add=a+b;
-sub=a-b;
-product=a*b;
-System.out.println("addition="+add);
-System.out.println("minus="+sub);
-System.out.println("product="+product);
-
+class HelloWorld {
+    public static void main(String[] args) {
+        int a,b,subtraction;
+        a = 10;
+        b = 20;
+        subtraction = a-b;
+        System.out.println("subtraction the Three Number = "+subtraction);
     }
 }
+```
+```output
+subtraction the Three Number = -10
 
-System.out.print("addition="+add);
-System.out.print("minus="+sub);
-System.out.print("product="+product);
+=== Code Execution Successful ===
+```
+### 4.java  program  to  find addition,subtraction,multplication?
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int a,b,addition,subtraction,multiplication;
+        a = 10;
+        b = 20;
+        addition = a+b;
+        subtraction = a-b;
+        multiplication =a*b;
+        System.out.println("addition the Three Number = "+addition);
+        System.out.println("subtraction the Three Number = "+subtraction);
+        System.out.println("multiplication the Three Number = "+multiplication);
+    }
+}
+```
+```output
+addition the Three Number = 30
+subtraction the Three Number = -10
+multiplication the Three Number = 200
+
+=== Code Execution Successful ===
 ```
 ### 5.java  program  to  find  area  of  rectangle?
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int length,breath,area;
+        length = 50;
+        breath = 20;
+        area = length*breath;
+        System.out.println("Area of Rectangle = "+area);
+    }
+}
 ```
-class Demo
-{
-public  static void main(String args[])
-{
-int l,b,area;
-l=2;
-b=5;
-area=l*b;
-System.out.println("area  of  rectangle="+area);
-}
-}
+```output
+Area of Rectangle = 1000
+
+=== Code Execution Successful ===
 ```
 ### 6.java  program  to  find  area of  triangle?
 ```java
-class Demo
-{
-public  static  void  main(String args[]){
-int b,h;
-double area;
-b=6;
-h=7;
-area=0.5*b*h;
-System.out.println("area="+area);
-}
-}
-```
-### 7.java  program  to  find
-```java
-1.area  of  square
-2.perimeter  of  square
-class Demo
-{
-public  static  void  main(String args[]){
-int  s,area,perimeter;
-s=6;
-area=s*s;
-perimeter=4*s;
-System.out.println("area="+area);
-System.out.println("perimeter="+perimeter);
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
 
+class HelloWorld {
+    public static void main(String[] args) {
+        int height,breath;
+        double area;
+        height = 50;
+        breath = 20;
+        area = 0.5*breath*height;
+        System.out.println("Area of Triangle = "+area);
     }
 }
 ```
-### 8.java  program  to find
-```java
-1.area  of  circle
-2.perimeter  of  circle
-class Demo
-{
-public  static  void  main(String args[]){
-int  r;
-double  area,perimeter;
-r=6;
-area=3.14*r*r;
-perimeter=2*3.14*r;
-System.out.println("area="+area);
-System.out.println("perimeter="+perimeter);
+```output
+Area of Triangle = 500.0
 
+=== Code Execution Successful ===
+```
+### 7.java  program  to  find 1.area  of  square 2.perimeter  of  square
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int square,area,perimeter;
+        square = 6;
+        perimeter = 4*size;
+        area = square*square;
+        System.out.println("Area of square = "+area);
+        System.out.println("Perimeter of square = "+perimeter);
     }
 }
+```
+```output
+Area of square = 36
+Perimeter of square = 24
+
+=== Code Execution Successful ===
+```
+### 8 . java  program  to find 1.area  of  circle 2.perimeter  of  circle
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class HelloWorld {
+    public static void main(String[] args) {
+        int r;
+        double area,perimeter;
+        r = 6;
+        perimeter = 2*3.14*r;
+        area = 3.14*r*r;
+        System.out.println("Area of cirle = "+area);
+        System.out.println("Perimeter of cirle = "+perimeter);
+    }
+}
+```
+```output
+Area of cirle = 113.03999999999999
+Perimeter of cirle = 37.68
+
+=== Code Execution Successful ===
 ```
 ### 9.java program  for PE n Ke
 ```java
@@ -226,16 +258,322 @@ System.out.println("ke="+ke);
     }
 }
 ```
+```output
+pe=210
+ke=87.5
+
+=== Code Execution Successful ===
+```
 ### 10. java  program  for  1.area of rectange  2.perimeter of  rectangle
 ### 11.java  program  for  volume  of  cylinder
 ### 12.java  program  for  volume  of  cone
-### 13.java  program  for
-1. inches  to  feet
-2. feet  to  inches 
-### 14.java  program  to  find
-### 1.celcious  to  fareen heat
-### 2.fareenheat  to  celcious
+```java
+class Program
+{
+    public static void main(String args[]){
+        int l,b,r,h,area_Rectangle,parameter_Rectangle ;
+        double volume_cylinder,volume_cone;
+        l = 10;
+        b = 20;
+        h = 15;
+        r = 5;
+        area_Rectangle = l * b;
+        parameter_Rectangle = 2 * l * b;
+        volume_cylinder = 3.14 * r * r * h;
+        volume_cone = 0.3 * 3.14 * r * r * h;
+        System.out.println("Area of Rectangle = "+ area_Rectangle);
+        System.out.println("Parameter of Rectangle = "+ parameter_Rectangle);
+        System.out.println("Volume of Cylinder= "+ volume_cylinder);
+        System.out.println("Volume of Cone= "+ volume_cone);
 
+    }
+}
+```
+```output
+Area of Rectangle = 200
+Parameter of Rectangle = 400
+Volume of Cylinder= 1177.5
+Volume of Cone= 353.25
+
+=== Code Execution Successful ===
+```
+### 13.java  program  for 1. inches  to  feet 2. feet  to  inches 
+# Inches of Feet
+```java
+public class InchesToFeet {
+
+    // Method to convert inches to feet
+    public static double inchesToFeet(double inches) {
+        return inches / 12;
+    }
+
+    public static void main(String[] args) {
+        // Predefined value of inches
+        double inches = 24.0;
+
+        // Convert inches to feet
+        double feet = inchesToFeet(inches);
+
+        // Output the result
+        System.out.println(inches + " inches is equal to " + feet + " feet.");
+    }
+}
+```
+```output
+24.0 inches is equal to 2.0 feet.
+
+=== Code Execution Successful ===
+```
+## Using the scanner inches to feet
+```java
+import java.util.Scanner;
+
+public class InchesToFeet {
+
+    // Method to convert inches to feet
+    public static double inchesToFeet(double inches) {
+        return inches / 12;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Input the value in inches from the user
+        System.out.print("Enter the value in inches: ");
+        double inches = scanner.nextDouble();
+
+        // Convert inches to feet
+        double feet = inchesToFeet(inches);
+
+        // Output the result
+        System.out.println(inches + " inches is equal to " + feet + " feet.");
+
+        scanner.close();
+    }
+}
+```
+```output
+Enter the value in inches: 24
+24.0 inches is equal to 2.0 feet.
+
+=== Code Execution Successful ===
+```
+# Feet to inches
+```java
+public class FeetToInches {
+
+    // Method to convert feet to inches
+    public static double feetToInches(double feet) {
+        return feet * 12;
+    }
+
+    public static void main(String[] args) {
+        // Predefined value of feet
+        double feet = 5.0;
+
+        // Convert feet to inches
+        double inches = feetToInches(feet);
+
+        // Output the result
+        System.out.println(feet + " feet is equal to " + inches + " inches.");
+    }
+}
+```
+```output
+5.0 feet is equal to 60.0 inches.
+
+=== Code Execution Successful ===
+```
+# Both using the inches to feet and feet to inches using the scanner
+```java
+import java.util.Scanner;
+
+public class Conversion {
+    // Method to convert inches to feet
+    public static double inchesToFeet(double inches) {
+        return inches / 12;
+    }
+
+    // Method to convert feet to inches
+    public static double feetToInches(double feet) {
+        return feet * 12;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Asking the user for conversion choice
+        System.out.println("Choose a conversion:");
+        System.out.println("1. Inches to Feet");
+        System.out.println("2. Feet to Inches");
+        int choice = scanner.nextInt();
+
+        switch (choice) {
+            case 1:
+                // Inches to Feet conversion
+                System.out.print("Enter inches: ");
+                double inches = scanner.nextDouble();
+                double feet = inchesToFeet(inches);
+                System.out.println(inches + " inches is " + feet + " feet.");
+                break;
+
+            case 2:
+                // Feet to Inches conversion
+                System.out.print("Enter feet: ");
+                double feetValue = scanner.nextDouble();
+                double inchesValue = feetToInches(feetValue);
+                System.out.println(feetValue + " feet is " + inchesValue + " inches.");
+                break;
+
+            default:
+                System.out.println("Invalid choice. Please choose 1 or 2.");
+        }
+
+        scanner.close();
+    }
+}
+```
+```output
+Choose a conversion:
+1. Inches to Feet
+2. Feet to Inches
+1
+Enter inches: 24
+24.0 inches is 2.0 feet.
+
+=== Code Execution Successful ===
+
+
+Choose a conversion:
+1. Inches to Feet
+2. Feet to Inches
+2
+Enter feet: 60
+60.0 feet is 720.0 inches.
+
+=== Code Execution Successful ===
+```
+### 14.java  program  to  find  1.celcious  to  fareen heat 2.fareenheat  to  celcious
+# celcious  to  fareen heat
+```java
+public class CelsiusToFahrenheit {
+
+    // Method to convert Celsius to Fahrenheit
+    public static double celsiusToFahrenheit(double celsius) {
+        return (celsius * 9/5) + 32;
+    }
+
+    public static void main(String[] args) {
+        // Predefined value of Celsius
+        double celsius = 25.0;
+
+        // Convert Celsius to Fahrenheit
+        double fahrenheit = celsiusToFahrenheit(celsius);
+
+        // Output the result without using the degree symbol
+        System.out.println(celsius + " Celsius is equal to " + fahrenheit + " Fahrenheit.");
+    }
+}
+```
+```output
+25.0 Celsius is equal to 77.0 Fahrenheit.
+
+=== Code Execution Successful ===
+```
+# fareenheat  to  celcious
+```java
+public class FahrenheitToCelsius {
+
+    // Method to convert Fahrenheit to Celsius
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5/9;
+    }
+
+    public static void main(String[] args) {
+        // Predefined value of Fahrenheit
+        double fahrenheit = 77.0;
+
+        // Convert Fahrenheit to Celsius
+        double celsius = fahrenheitToCelsius(fahrenheit);
+
+        // Output the result
+        System.out.println(fahrenheit + " Fahrenheit is equal to " + celsius + " Celsius.");
+    }
+}
+```
+```output
+77.0 Fahrenheit is equal to 25.0 Celsius.
+
+=== Code Execution Successful ===
+```
+# using the scanner
+```java
+import java.util.Scanner;
+
+public class TemperatureConversion {
+
+    // Method to convert Celsius to Fahrenheit
+    public static double celsiusToFahrenheit(double celsius) {
+        return (celsius * 9/5) + 32;
+    }
+
+    // Method to convert Fahrenheit to Celsius
+    public static double fahrenheitToCelsius(double fahrenheit) {
+        return (fahrenheit - 32) * 5/9;
+    }
+
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+
+        // Asking the user for conversion choice
+        System.out.println("Choose a conversion:");
+        System.out.println("1. Celsius to Fahrenheit");
+        System.out.println("2. Fahrenheit to Celsius");
+        int choice = scanner.nextInt();
+
+        switch (choice) {
+            case 1:
+                // Celsius to Fahrenheit conversion
+                System.out.print("Enter temperature in Celsius: ");
+                double celsius = scanner.nextDouble();
+                double fahrenheit = celsiusToFahrenheit(celsius);
+                System.out.println(celsius + " Celsius is equal to " + fahrenheit + " Fahrenheit.");
+                break;
+
+            case 2:
+                // Fahrenheit to Celsius conversion
+                System.out.print("Enter temperature in Fahrenheit: ");
+                double fahrenheitValue = scanner.nextDouble();
+                double celsiusValue = fahrenheitToCelsius(fahrenheitValue);
+                System.out.println(fahrenheitValue + " Fahrenheit is equal to " + celsiusValue + " Celsius.");
+                break;
+
+            default:
+                System.out.println("Invalid choice. Please choose 1 or 2.");
+        }
+
+        scanner.close();
+    }
+}
+```
+```output
+Choose a conversion:
+1. Celsius to Fahrenheit
+2. Fahrenheit to Celsius
+1
+Enter temperature in Celsius: 20
+20.0 Celsius is equal to 68.0 Fahrenheit.
+
+=== Code Execution Successful ===
+Choose a conversion:
+1. Celsius to Fahrenheit
+2. Fahrenheit to Celsius
+2
+Enter temperature in Fahrenheit: 68
+68.0 Fahrenheit is equal to 20.0 Celsius.
+
+=== Code Execution Successful ===
+```
 ### arithmetic  operators:
 ## 1.+-->addition
 ## 2.-  --->substraction
@@ -814,10 +1152,10 @@ System.out.println(n1.endsWith("com"));
 System.out.println(n2.endsWith(".in"));
     }
 }
-https://www.google.com
-https://www.google.co.in
-http://www.google.com
-http://www.google.co.in
+//https://www.google.com
+//https://www.google.co.in
+//http://www.google.com
+//http://www.google.co.in
 ```
 # String  handling functions:
 # 1.charAt() 
@@ -835,3 +1173,92 @@ http://www.google.co.in
 ## + int-->String
 ## + double--->String
 ## + char--->String
+# if
+```java
+class number{
+    public static void main(String args[]){
+        int num = 0;
+        if (num>0){
+            System.out.println("if Number {num} is Postive ");
+        }
+        if (num<0){
+            System.out.println("if Number {num} is Negative ");
+        }
+        if (num == 0){
+            System.out.println("if Number {num} is Zero ");
+        }
+    }
+}
+```
+```output
+if Number {num} is Zero 
+
+=== Code Execution Successful ===
+```
+```java
+class number{
+    public static void main(String args[]){
+        int num = 55;
+        if (num>0){
+            System.out.println("if Number {num} is Postive ");
+        }
+        if (num<0){
+            System.out.println("if Number {num} is Negative ");
+        }
+        if (num == 0){
+            System.out.println("if Number {num} is Zero ");
+        }
+    }
+}
+```
+```output
+if Number {num} is Postive 
+
+=== Code Execution Successful ===
+```
+# string
+```java
+class HelloWorld {
+    public static void main(String[] args) {
+        String url = "https://www.facebook.com/";
+        int l = url.length();
+        System.out.println("Length of the URL: " + l);
+        
+       
+        for (int i = 0; i < l; i++) {
+            System.out.println(url.charAt(i));          
+            
+        }
+    }
+}
+```
+```output
+Length of the URL: 25
+h
+t
+t
+p
+s
+:
+/
+/
+w
+w
+w
+.
+f
+a
+c
+e
+b
+o
+o
+k
+.
+c
+o
+m
+/
+
+=== Code Execution Successful ===
+```
