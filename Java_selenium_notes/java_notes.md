@@ -1262,3 +1262,99 @@ m
 
 === Code Execution Successful ===
 ```
+# method:
+# notation  for method  ().
+## method  also  called as  FUNCTION.
+# types  of  methods:
+### 1.predefined  methods/system defined methods
+### 2.user defined methods
+### to  create  user  defined  methods  we  need
+### 1.method call   2.method defination
+### it  can  be  done  
+### 1.with parameters
+### 2.witout parameters
+### method  call:
+### without  parameters
+# methodName();
+### with parameters
+### methodName(arg1,arg2,....argn);
+
+# method  defination:
+# without parameters:
+```java
+public  void  methodName()
+{
+//method  body
+}
+```
+# with  parameters:
+```java
+public  void  methodName(datatype arg1,datatype arg2,....)
+{
+//method body
+}
+```
+# NOTE:
+## when ever there is a  method call,it  reachs  to  its  method defination.
+## if method  definaion is execuited,it means there is a call.
+
+## pop(procedure  oriented programming)   vs  oops(object oriened programming)
+
+# pop:
+## here  entire  program  will be  under main method.
+```java
+class Dog {
+public static void main(String[] args) {
+
+        String breed,color;
+        int cost;
+        breed="labrador";
+        color="white";
+        cost=10000;
+        System.out.println(breed+color+cost);
+        
+    }
+}
+```
+### it  store  only  one dog  details.
+### if  we  try  to add one more  dog  details,new  values will get  replace
+### with  old values.
+### note: here  breed,color,cost----->variable
+# oops:
+## to  write  program  using  oops we need
+## 1.class   2.object  2.methods(method call/method  defination)
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Dog {
+String breed,color;
+int cost;
+public  void input(String a,String b,int c)
+{
+breed=a;
+color=b;
+cost=c;
+}
+public  void  output()
+{
+System.out.println(breed+color+cost);
+}
+
+    public static void main(String[] args) {
+        Dog  d1=new Dog();
+        Dog d2=new Dog();
+        Dog  d3=new Dog();
+        d1.input("gs","black",23000);
+        d2.input("labrador","white",10000);
+        d3.input("huch","brown",45000);
+        d1.output();
+        d2.output();
+        d3.output();
+    
+    }
+}
+```
+## here  if  partion  memory  will takes  place.
+## if  we  create  2  objects,then  memory  will allocates  twice.
+## ||ly,if  we  create  3  objects,then  memory  will allocates  thrice.
