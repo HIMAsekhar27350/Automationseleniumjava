@@ -11,10 +11,10 @@ public class oops_Dog_details {
         this.weight=weight;
     }
     public void dog_details_output(){
-        System.out.println("Dog Name = "+name);
+        System.out.println("constructorDog Name = "+name);
         System.out.println("Breed Name = "+breed);
-        System.out.println("Price of Dog = "+price);
-        System.out.println("Weight of Dog = "+weight);
+        System.out.println("Price of constructorDog = "+price);
+        System.out.println("Weight of constructorDog = "+weight);
     }
 
     public static void main(String[] args) {

@@ -9,9 +9,9 @@ public class Dog_details_pop {
         breed="Golden Retriever";
         price=25000;
         weight=29;
-        System.out.println("Dog Name = "+name);
+        System.out.println("constructorDog Name = "+name);
         System.out.println("Breed Name = "+breed);
-        System.out.println("Price of Dog = "+price);
-        System.out.println("Weight of Dog = "+weight);
+        System.out.println("Price of constructorDog = "+price);
+        System.out.println("Weight of constructorDog = "+weight);
     }
 }

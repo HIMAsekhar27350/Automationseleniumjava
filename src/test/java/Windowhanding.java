@@ -18,6 +18,9 @@ public class Windowhanding {
         driver.findElement(By.xpath("//span[text()='Apple iPhone 15 Pro (256 GB) - Black Titanium']")).click();
         String w1 = driver.getWindowHandle();
         Set<String> w2 =driver.getWindowHandles();
+        Thread.sleep(3000);
+        driver.navigate().back();
+        Thread.sleep(3000);
         for(String s:w2){
             driver.switchTo().window(s);
         }
