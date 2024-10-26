@@ -1,7 +1,7 @@
 public class Ibm {
     String name,job,id;
     int salary;
-    static int totalsalary,count=100;
+    static int  totalsalary,count;
     Ibm(){
         count++;
         id = "IBM-"+Integer.toString(count);
