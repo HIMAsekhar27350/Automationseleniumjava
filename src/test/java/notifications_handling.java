@@ -23,7 +23,7 @@ public class notifications_handling {
         driver = new ChromeDriver();
         driver.get(url);
         driver.findElement(By.xpath(Xpath)).click();
-        //Thread.sleep(3000);
+        Thread.sleep(3000);
         Actions act = new Actions(driver);
         WebElement w = driver.findElement(By.xpath(hover));
         act.moveToElement(w);
