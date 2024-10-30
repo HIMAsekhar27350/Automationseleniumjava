@@ -11,7 +11,7 @@ public class BankSbi {
         this.bankaccount = bankaccount;
         this.bankNumber = bankNumber;
         this.amount = amount;
-        totalamount=totalamount+this.amount;
+        totalamount=totalamount+amount;
     }
     public void putdetails(){
         System.out.println("Name = "+name);
@@ -27,7 +27,7 @@ public class BankSbi {
         System.out.println("SBI Bank Account id Created = "+accounts);
 
     }
-    public static void totalamounts(){
+    public static void totalamounts1(){
         System.out.println("Total Amount added = "+totalamount);
         System.out.println("No of Accounts Created = "+count);
     }
@@ -37,10 +37,11 @@ public class BankSbi {
         BankSbi bank1 =new BankSbi();
         bank.getBankDetails("Hima Sekhar","Savings","45616316546",500);
         bank.putdetails();
-        totalamounts();
+        totalamounts1();
         System.out.println("*************************************");
-        bank1.getBankDetails("Roman reing","Current","2457846416",1000);
+        bank1.getBankDetails("Roman reings","Current","2457846416",1000);
         bank1.putdetails();
-        totalamounts();
+        totalamounts1();
+
     }
 }

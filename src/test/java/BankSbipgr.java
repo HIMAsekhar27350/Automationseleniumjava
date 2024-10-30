@@ -70,8 +70,8 @@ public class BankSbipgr {
 
         bank1.getBankDetails("Roman Reigns", "Current", "2457846416", 1000);
         bank1.putdetails();
-        bank1.depositAmount(300); // Example deposit
-        bank1.withdrawAmount(500); // Example withdrawal
+        bank1.depositAmount(300000); // Example deposit
+        bank1.withdrawAmount(1600); // Example withdrawal
         bank1.putdetails();
         System.out.println("**************************************");
         totalamounts();
