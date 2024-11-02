@@ -330,4 +330,178 @@ reverse =721
 
 === Code Execution Successful ===
 ```
-# 11.java program
+# 11.java program to display palindrome.
+```java
+class PalindromeCheck {
+    public static void main(String[] args) {
+        int n = 121; 
+        int digit, rev = 0; 
+        int original = n; 
+
+        // Reverse the number
+        while (n > 0) {
+            digit = n % 10; 
+            rev = rev * 10 + digit; 
+            n = n / 10; // Remove the last digit
+        }
+
+        // Check if the original number is equal to the reversed number
+        if (original == rev) {
+            System.out.println(original + " is a palindrome.");
+        } else {
+            System.out.println(original + " is not a palindrome.");
+        }
+    }
+}
+```
+```output
+java -cp /tmp/H41YtcUncE/PalindromeCheck
+121 is a palindrome.
+
+=== Code Execution Successful ===
+```
+```java
+class PalindromeCheck {
+    public static void main(String[] args) {
+        int n = 321; 
+        int digit, rev = 0; 
+        int original = n; 
+
+        // Reverse the number
+        while (n > 0) {
+            digit = n % 10; 
+            rev = rev * 10 + digit; 
+            n = n / 10; // Remove the last digit
+        }
+
+        // Check if the original number is equal to the reversed number
+        if (original == rev) {
+            System.out.println(original + " is a palindrome.");
+        } else {
+            System.out.println(original + " is not a palindrome.");
+        }
+    }
+}
+```
+```output
+java -cp /tmp/PElxg5kL9m/PalindromeCheck
+321 is not a palindrome.
+
+=== Code Execution Successful ===
+```
+# 12.java program to check arm strong are not.
+```java
+class sum {
+    public static void main(String[] args) {
+        int n = 153; 
+        int digit, sum = 0; 
+        int m = n; 
+
+        // Reverse the number
+        while (n > 0) {
+            digit = n % 10; 
+            sum = sum+digit*digit*digit;
+            n = n / 10; // Remove the last digit
+        }
+        if(m==sum){
+            System.out.println(m+ " Arm strong");
+        }else{
+            System.out.println(m+ " Arm  not strong");
+        }
+    }
+}
+```
+```output
+java -cp /tmp/QOPsEd2xs4/sum
+153 Arm strong
+
+=== Code Execution Successful ===
+```
+```java
+class sum {
+    public static void main(String[] args) {
+        int n = 453; 
+        int digit, sum = 0; 
+        int m = n; 
+
+        // Reverse the number
+        while (n > 0) {
+            digit = n % 10; 
+            sum = sum+digit*digit*digit;
+            n = n / 10; // Remove the last digit
+        }
+        if(m==sum){
+            System.out.println(m+ " Arm strong");
+        }else{
+            System.out.println(m+ " Arm  not strong");
+        }
+    }
+}
+//using the for loop
+class sum {
+    public static void main(String[] args) {
+        int n = 453;
+        int digit, sum = 0;
+        int m = n;
+
+        // Reverse the number
+        for (;n > 0;) {
+            digit = n % 10;
+            sum = sum+digit*digit*digit;
+            n = n / 10; // Remove the last digit
+        }
+        if(m==sum){
+            System.out.println(m+ " Arm strong");
+        }else{
+            System.out.println(m+ " Arm  not strong");
+        }
+    }
+}
+
+```
+```output
+java -cp /tmp/FDUiPiF4V8/sum
+453 Arm  not strong
+
+=== Code Execution Successful ===
+```
+# 13.java program to find sum of cude.
+```java
+class sum {
+    public static void main(String[] args) {
+        int n = 5; 
+        int digit, sum = 0; 
+        int m = n; 
+
+        // Reverse the number
+        while (n > 0) {
+            digit = n % 10; 
+            sum = sum+digit*digit*digit;
+            n = n / 10; // Remove the last digit
+        }
+        System.out.println("Sum of Cude = "+sum);
+    }
+}
+//using the for loop
+class sum {
+    public static void main(String[] args) {
+        int n = 5;
+        int digit, sum = 0;
+        int m = n;
+
+        // Reverse the number
+        for (;n > 0;) {
+            digit = n % 10;
+            sum = sum+digit*digit*digit;
+            n = n / 10; // Remove the last digit
+        }
+        System.out.println("Sum of Cude = "+sum);
+    }
+}
+```
+```output
+java -cp /tmp/7x6jFXkQaA/sum
+Sum of Cude = 125
+
+=== Code Execution Successful ===
+```
