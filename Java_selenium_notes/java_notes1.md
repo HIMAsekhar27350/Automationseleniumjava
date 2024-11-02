@@ -173,3 +173,63 @@ public class Ploy {
 + ## same method is repeated number of times with same data type.
 +  ## same method is repeated number of times with different same data type.
 +  ## same method is repeated number of times with sequenceof different data type.
+```java
+class HelloWorld {
+public static void main(String[] args) {
+int i;
+for(i=1;i<=10;i++)
+{
+System.out.println(i);
+}
+
+    }
+}
+```
+# for with  break:
+## here  break  will  terminates  the  process.
+## it  won't  execute  all the  value.
+```java
+class HelloWorld {
+public static void main(String[] args) {
+int i;
+for(i=1;i<=10;i++)
+{     
+if(i==5)
+break;
+else
+    System.out.println(i);
+}
+
+    }
+}
+```
+# for  with  continue :
+## it  will skip the  execution.
+```java
+class HelloWorld {
+public static void main(String[] args) {
+int i;
+for(i=1;i<=10;i++)
+{     
+if(i==7)
+continue;
+else
+System.out.println(i);
+}
+
+    }
+}
+class HelloWorld {
+public static void main(String[] args) {
+int i;
+for(i=1;i<=10;i++)
+{     
+if(i<=3)
+continue;
+else
+System.out.println(i);
+}
+
+    }
+}
+```
