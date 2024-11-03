@@ -12,7 +12,11 @@ public class webdrive1 {
         String searchbardetails="hyd";
         driver.findElement(By.id("src")).sendKeys(searchbardetails, Keys.ENTER);
         Thread.sleep(2000);
-        List<WebElement> dropdownitems=driver.findElements()
+        List<WebElement> dropdownitems=driver.findElements(By.xpath("//div[@class='sc-gZMcBi hviMLb']"));
+        for(WebElement item:dropdownitems){
+            item.click();
+            Thread.sleep(2000);
+        }
         webdrive.closeDriver();
     }
 }

@@ -505,3 +505,33 @@ Sum of Cude = 125
 
 === Code Execution Successful ===
 ```
+# java program to find whether it Prime or not.
+```java
+    class HelloWorld {
+    public static void main(String[] args) {
+        int n, i, count;
+        n = 7;
+        count = 0;
+
+        for (i = 1; i <= n; i++) {
+            if (n % i == 0) { // Check if 'n' is divisible by 'i'
+                count++;
+            }
+        }
+
+        // If count is 2, it means 'n' has only two divisors: 1 and itself
+        if (count == 2) {
+            System.out.println("Prime");
+        } else {
+            System.out.println("Not prime");
+        }
+    }
+}
+
+```
+```output
+java -cp /tmp/uk0gUDKdfc/HelloWorld
+Prime
+
+=== Code Execution Successful ===
+```
