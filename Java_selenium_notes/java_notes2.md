@@ -535,3 +535,328 @@ Prime
 
 === Code Execution Successful ===
 ```
+# Nested for loop:
+# Square Pattern.
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=n;j++){
+                System.out.print("*");
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/jGAdGgwl49/Demo
+****
+****
+****
+****
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=n;j++){
+                System.out.print(j);
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/rsoCfb1tkD/Demo
+1234
+1234
+1234
+1234
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=n;j++){
+                System.out.print(i);
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/vN8S0Yy5MM/Demo
+1111
+2222
+3333
+4444
+
+=== Code Execution Successful ===
+```
+# Right-Angled Triangle Pattern.
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=i;j++){
+                System.out.print("*");
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/zujq5fCMXH/Demo
+*
+**
+***
+****
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=i;j++){
+                System.out.print(i);
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/aKAFFHHiCq/Demo
+1
+22
+333
+4444
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=i;j++){
+                System.out.print(j);
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/HqxBaJaejK/Demo
+1
+12
+123
+1234
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=n;j>=i;j--){
+                System.out.print("*");
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/HYP0gH4pk3/Demo
+****
+***
+**
+*
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=n;j>=i;j--){
+                System.out.print(j);
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/2IUzvpjuXF/Demo
+4321
+432
+43
+4
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=n;j>=i;j--){
+                System.out.print(i);
+            }
+          System.out.println("");  
+        }
+    }
+}
+```
+```output
+java -cp /tmp/I6c4uGx4R7/Demo
+1111
+222
+33
+4
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n,k;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+          for(k = 1; k<=i; k++){
+            System.out.print("*");  
+          } 
+          System.out.println();
+        }
+    }
+}
+```
+```output
+java -cp /tmp/emkE5dITY0/Demo
+   *
+  **
+ ***
+****
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n,k;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+          for(k = 1; k<=i; k++){
+            System.out.print(k);  
+          } 
+          System.out.println();
+        }
+    }
+}
+```
+```output
+java -cp /tmp/DBCkYJO1G1/Demo
+   1
+  12
+ 123
+1234
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n,k;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+          for(k = 1; k<=i; k++){
+            System.out.print(i);  
+          } 
+          System.out.println();
+        }
+    }
+}
+```
+```output
+java -cp /tmp/emGd2Di5Hq/Demo
+   1
+  22
+ 333
+4444
+
+=== Code Execution Successful ===
+```
+

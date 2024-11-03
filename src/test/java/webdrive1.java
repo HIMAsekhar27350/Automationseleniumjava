@@ -13,10 +13,12 @@ public class webdrive1 {
         driver.findElement(By.id("src")).sendKeys(searchbardetails, Keys.ENTER);
         Thread.sleep(2000);
         List<WebElement> dropdownitems=driver.findElements(By.xpath("//div[@class='sc-gZMcBi hviMLb']"));
-        for(WebElement item:dropdownitems){
-            item.click();
+        if(dropdownitems.size()>=3){
+            dropdownitems.get(2).click();
             Thread.sleep(2000);
+        }else{
+            System.out.println("Less than three option are available in the dropdown ");
         }
-        webdrive.closeDriver();
+        //webdrive.closeDriver();
     }
 }
