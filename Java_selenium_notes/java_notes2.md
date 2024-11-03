@@ -859,4 +859,180 @@ java -cp /tmp/emGd2Di5Hq/Demo
 
 === Code Execution Successful ===
 ```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n,k;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+            for(k = 1; k<=i; k++){
+            System.out.print("*");  
+          }
+             for(int l=1;l<i;l++){
+              System.out.print("*");
+          }
+          System.out.println();
+        }
+    }
+}
+```
+```output
+java -cp /tmp/Mo6vQ7QYN4/Demo
+   *
+  ***
+ *****
+*******
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n,k;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+            for(k = 1; k<=i; k++){
+            System.out.print(k);  
+          }
+             for(int l=1;l<i;l++){
+              System.out.print(i);
+          }
+          System.out.println();
+        }
+    }
+}
+```
+```output
+java -cp /tmp/7gB1sySauq/Demo
+   1
+  122
+ 12333
+1234444
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n,k;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+            for(k = 1; k<=i; k++){
+            System.out.print(k);  
+          }
+             for(int l=1;l<i;l++){
+              System.out.print(l);
+          }
+          System.out.println();
+        }
+    }
+}
+```
+```output
+java -cp /tmp/QCLQAtKfAj/Demo
+   1
+  121
+ 12312
+1234123
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n,k;
+        n=4;
+        for(i=n;i>=1;i--){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+            for(k = 1; k<=i; k++){
+                System.out.print("*");
+            }
+            for(int l=1;l<i;l++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
+```
+```output
+java -cp /tmp/4EnQ6tW2Nu/Demo
+*******
+ *****
+  ***
+   *
+
+=== Code Execution Successful ===
+```
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Demo {
+    public static void main(String[] args) {
+        int i,j,n,k;
+        n=4;
+        for(i=1;i<=n;i++){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+            for(k = 1; k<=i; k++){
+            System.out.print("*");  
+          }
+             for(int l=1;l<i;l++){
+              System.out.print("*");
+          }
+          System.out.println();
+        }
+        for(i=n;i>=1;i--){
+            for(j=1;j<=(n-i);j++){
+                System.out.print(" ");
+            }
+            for(k = 1; k<=i; k++){
+            System.out.print("*");  
+          }
+             for(int l=1;l<i;l++){
+              System.out.print("*");
+          }
+          System.out.println();
+        }
+    }
+}
+```
+```output
+java -cp /tmp/2k2D62lBQ6/Demo
+   *
+  ***
+ *****
+*******
+*******
+ *****
+  ***
+   *
+
+=== Code Execution Successful ===
+```
 
