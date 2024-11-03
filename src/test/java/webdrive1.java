@@ -1,8 +1,10 @@
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
+import java.time.Duration;
 import java.util.List;
 
 public class webdrive1 {
@@ -10,14 +12,18 @@ public class webdrive1 {
         webdrive.webdrive_input();
         WebDriver driver=webdrive.getDriver();
         String searchbardetails="hyd";
-        driver.findElement(By.id("src")).sendKeys(searchbardetails, Keys.ENTER);
-        Thread.sleep(2000);
-        List<WebElement> dropdownitems=driver.findElements(By.xpath("//div[@class='sc-gZMcBi hviMLb']"));
-        if(dropdownitems.size()>=3){
-            dropdownitems.get(2).click();
-            Thread.sleep(2000);
-        }else{
-            System.out.println("Less than three option are available in the dropdown ");
+        driver.findElement(By.id("src")).sendKeys(searchbardetails);
+        WebDriverWait wait=new WebDriverWait(driver,Duration.ofSeconds(10));
+        wait.until(ExpectedConditions.presenceOfAllElementsLocatedBy(By.xpath("//ul[@class='sc-dnqmqq dZhbJF']//li")));
+
+        List<WebElement> dropdown1=driver.findElements(By.xpath("//ul[@class='sc-dnqmqq dZhbJF']//li"));
+
+        for(WebElement item:dropdown1){
+            if(item.getText().equalsIgnoreCase("ameerpet")){
+                item.click();
+                System.out.println("Clicked the ameerpet");
+                break;
+            }
         }
         //webdrive.closeDriver();
     }
