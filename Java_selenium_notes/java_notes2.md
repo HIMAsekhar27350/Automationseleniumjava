@@ -505,7 +505,7 @@ Sum of Cude = 125
 
 === Code Execution Successful ===
 ```
-# java program to find whether it Prime or not.
+# 14.java program to find whether it Prime or not.
 ```java
     class HelloWorld {
     public static void main(String[] args) {
