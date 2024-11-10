@@ -7,7 +7,8 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class webdrive1 {
+public class redBus
+{
     public static void main(String[] args) throws InterruptedException {
         webdrive.webdrive_input();
         WebDriver driver=webdrive.getDriver();
