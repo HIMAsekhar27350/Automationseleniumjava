@@ -46,6 +46,18 @@ public class Date {
                 break;
             }
         }
+        Thread.sleep(2000);
+        WebElement cal=driver.findElement(By.xpath("(//*[starts-with(@d,'M12')])[5]"));
+        a.click(cal).perform();
+        driver.findElement(By.xpath("//div[@class='DayPicker-Months']"));
+        Thread.sleep(2000);
+        WebElement movetocurse=driver.findElement(By.xpath("(//*[starts-with(@d,'M10')])[2]"));
+        Thread.sleep(2000);
+        a.doubleClick(movetocurse).perform();
+        Thread.sleep(2000);
+        WebElement fixDate=driver.findElement(By.xpath("(//*[starts-with(@class,'p-1')])[11]"));
+        a.click(fixDate).perform();
+        Thread.sleep(2000);
         driver.quit();
     }
 }

@@ -3,8 +3,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.WebDriverWait;
-import java.time.Duration;
 import java.util.List;
 
 public class ResBus {
@@ -40,13 +38,12 @@ public class ResBus {
         int n =1;
         for(WebElement w1:sp1){
             System.out.println(n+" . "+w1.getText());
-            i++;
+            n++;
             if(w1.getText().equalsIgnoreCase("Hyderabad Airport")){
                 w1.click();
                 break;
             }
         }
-        Thread.sleep(2000);
-        //driver.quit();
+        driver.quit();
     }
 }
