@@ -23,7 +23,7 @@ public class ResBus {
         for(WebElement w:sp){
             System.out.println(i+" . "+w.getText());
             i++;
-            if(w.getText().equalsIgnoreCase("Bangalore Airport Intl")){
+            if(w.getText().equalsIgnoreCase("Hyderabad Airport")){
                 w.click();
                 System.out.println("the Bangalore is clicked");
                 break;
@@ -44,6 +44,17 @@ public class ResBus {
                 break;
             }
         }
-        driver.quit();
+        Thread.sleep(2000);
+        driver.findElement(By.xpath("//span[@class='dateText']")).click();
+        Thread.sleep(2000);
+        List<WebElement> dates = driver.findElements(By.xpath("//table[@class='rb-monthTable first last']//td"));
+        for (WebElement date : dates) {
+            if (date.getText().equals("15")) {  // Replace "15" with your desired day of the month
+                date.click();
+                System.out.println("Date selected: 15");
+                break;
+            }
+        }
+        //driver.quit();
     }
 }
