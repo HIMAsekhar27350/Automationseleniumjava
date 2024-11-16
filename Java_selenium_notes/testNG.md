@@ -101,4 +101,13 @@ class a{
 # try and catch block:
 ## try is a keyword used in expection handling.
 ## program under observaton must be places under try block.
-## when ever expection
+## when ever expection take place immeditly try with report to catch block.
+```java
+try{
+    default code under observation;
+    }catch(excution e){
+    
+    }
+```
+# finally:
+## finally block of statement will excutes whether expection may or may takes places
