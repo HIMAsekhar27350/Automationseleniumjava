@@ -4,7 +4,7 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.testng.annotations.Test;
 
-public class run_Browser extends launch_Brower {
+public class run_Browser extends launch_Browser {
 
     @Test(priority = 1)
     public void searching()throws InterruptedException{
