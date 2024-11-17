@@ -49,9 +49,9 @@ class parents extends grandparents{-----------}
 class child extends parents{-----------}
 ```
 # Access modifaiyers:
-# static
-# final
-# abstract
+# 1.static
+# 2.final
+# 3.abstract
 # final:
 ## Final can be appilyed to class,variable,method.
 ## Final variable:
@@ -70,7 +70,7 @@ class d extends a{
     -------
 }
 ```
-## final method
+## final method:
 ## if method is declare final then,it should not be override into anotherclass.
 ```java
 class a{
@@ -110,4 +110,150 @@ try{
     }
 ```
 # finally:
-## finally block of statement will excutes whether expection may or may takes places
+## finally block of statement will excutes whether expection may or may takes places.
+# Note:
+- ## if try catch is immpilmented then no need to use throws.
+- ## if throws is implimented no need to use try catch.
+# java excaption:
+## io excaption
+## arithmatic excaption
+## numberformat excaption
+## array index out of bounds excaption.
+## nyll pointer excaption.
+## negative array index excapton.
+# 1 java program of arithmatic expcation.
+```java
+import java.io.IOException;
+public class java_Excaption {
+    public static void main(String[] args) {
+    try{
+        int a[] = {10, 0};
+        int div;
+        div = a[0] / a[1];
+        System.out.println("div = "+div);
+    } catch(ArithmeticException e){
+        System.out.println("Denometer is zero");
+    }
+    finally{
+        System.out.println("Thank you");
+    }
+    }
+}
+```
+# 2.java program array index out of bounds.
+```java
+import java.io.IOException;
+
+public class java_Excaption {
+    public static void main(String[] args) {
+    try{
+        int a[] = {10, 0};
+        int div;
+        div = a[0] / a[-1];
+        System.out.println("div = "+div);
+    } catch(ArithmeticException e){
+        System.out.println("Denometer is zero");
+    }catch (ArrayIndexOutOfBoundsException e){
+        System.out.println("Array Index is incorrect");
+    }
+    finally{
+        System.out.println("Thank you");
+    }
+    }
+}
+```
+# 3.java program for numberformat excaption.
+```java
+import java.io.IOException;
+
+public class java_Excaption {
+    public static void main(String[] args) {
+    try{
+        int a[] = {10, 2};
+        int div;
+        div = a[0] / a[1];
+        Integer b=Integer.parseInt("10hikma");
+        System.out.println(b);
+        System.out.println("div = "+div);
+    } catch(ArithmeticException e){
+        System.out.println("Denometer is zero");
+    }catch (ArrayIndexOutOfBoundsException e){
+        System.out.println("Array Index is incorrect");
+    }
+    catch (NegativeArraySizeException e){
+        System.out.println("Array Size is negative");
+    }
+    catch (NumberFormatException e){
+        System.out.println("Dont enter string instand of integer");
+    }
+    finally{
+        System.out.println("Thank you");
+    }
+    }
+}
+```
+# Mutiple catch block
+## in java mutiple catch blocks apply based on different user input.
+# Single try with muitple catch block makes program to identify the exact issue.
+## Syatax:
+```java
+try{
+    doubtfull code under observation
+        }catch(excaption e){
+    exception handler
+            }
+```
+# is it possble to implement mulitple catch blocks in java?
+## Yes ,we can implenment.
+# Selenium Excaption:
+## 1.Stele Element Excaption.
+## 2.Element not found Excaption.
+## 3.Element not visable Excaption.
+## 4.Null pointer excaption.
+## 5.Interrupater excaption
+## 6.Alert not presented excaption
+## 7.Frame not presented excaption
+## 8.Window not presented excaption
+## 9.No Such Element excaption.
+# Wapper class:
+## Integer-------->int
+## Float-------->float
+## Doudle-------->double
+## Boolean-------->boolean
+## Character-------->char
+## Long
+## short
+## Converting from any data to string
+## To Convert from any data to string,we can use to string method.After we need not to perfrom any calcaution.
+```java
+// Online Java Compiler
+// Use this editor to write, compile and run your Java code online
+
+class Main {
+    public static void main(String[] args) {
+        int x=20;
+        String y;
+        y=Integer.toString(x);
+        System.out.println(y);
+    }
+}
+```
+# properties file:
+## We can store text data in properties file with key-value file
+url=https://www.google.com
+place=Bangalore
+name=q
+t=2000
+## to abstruct properties file into java
+## step 1
+## create object for file input stream And send path of properties file
+## FileInputStream fis=new FileInputStream();
+## Step 2
+## create object of properties
+## Properties p=new Properties();
+## step 
+## load the data load method
+## p.load(fis);
+## step
+## to get key into java file use properties method
+## driver.get(p.getProperty("url"));
