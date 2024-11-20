@@ -240,20 +240,22 @@ class Main {
 ```
 # properties file:
 ## We can store text data in properties file with key-value file
-url=https://www.google.com
-place=Bangalore
-name=q
-t=2000
+**url=https://www.google.com**
+## example:
+**place=Bangalore**
+**name=q**
+
+**t=2000**
 ## to abstruct properties file into java
-## step 1
+## step 1:
 ## create object for file input stream And send path of properties file
 ## FileInputStream fis=new FileInputStream();
-## Step 2
+## Step 2:
 ## create object of properties
 ## Properties p=new Properties();
-## step 
+## step  3:
 ## load the data load method
 ## p.load(fis);
-## step
+## step 4:
 ## to get key into java file use properties method
 ## driver.get(p.getProperty("url"));
