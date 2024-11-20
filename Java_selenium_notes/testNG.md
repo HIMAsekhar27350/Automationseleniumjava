@@ -240,9 +240,12 @@ class Main {
 ```
 # properties file:
 ## We can store text data in properties file with key-value file
-**url=https://www.google.com**
 ## example:
+
+**url=https://www.google.com**
+
 **place=Bangalore**
+
 **name=q**
 
 **t=2000**
