@@ -1,0 +1,2 @@
+# Fresher:
+# -- I am the product of s v university with BSC backgroung.Done my 10th and 10+2 in my navetive.Then coming to my family back ground iam eith nuclear family inculding father,mother,brother.
