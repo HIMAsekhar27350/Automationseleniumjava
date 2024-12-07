@@ -9,7 +9,7 @@ public class asserations {
         actual="mpl";
         excepted="npl";
 
-       /* Assert.assertEquals(actual,excepted,"Both are different");
+        /*Assert.assertEquals(actual,excepted,"Both are different");
         System.out.println("Hero");
         System.out.println("Super Hero");*/
 

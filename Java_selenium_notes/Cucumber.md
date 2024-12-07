@@ -101,3 +101,63 @@ Then Filpkart login succeccfully
 ```
 # **note:**
 ## **feature  file  can  be  understand  by  technical  n  non  technical  folks in the project**
+## can  u  explain about  the  framework?
+## the project  belongs  to  e-commerce domain,its  web application
+## is implemented  with cucumber BDD  framework.
+## here  there  are  3  files
+## 1.feature  file
+## 2.step defination
+## 3.runner file
+# feature file:
+## here  features  are  defined  using  scenerios.
+## gerkin  language  plays  a  major  role with give,when,then ,and
+# step  defination :
+## actual  technical  code will be  available.
+## launging  browser
+## searching  for  product
+## clikcing  on some  images
+## closing browser
+# runner  file:
+## it  execuites  feature  n step defination files
+# what  are  cucumber  options?
+
+## feature: to  provide  path  of the  feaure file
+## glue: to  provide path of the step defination
+## plugin: it  is  used  to  generate  reports
+## plugin ={"pretty","html:/target/reports/safwway.html}
+## tags:it  excecutes  particular  scenerio.
+## tags="@safwaylogin"
+## in cucmber  out  3  files  which should be  executed?
+## runner  file
+## is there  any  extends  class for runner  file?
+## AbstractTestNGCucumbertests
+## which  types  of  reports  u  used in the framework?
+## html  reports
+
+## how  many  times  given,when,then ,and   are used in feature file?
+## give   max  will use one time
+## but  when,then,and  more than once
+
+## have  u  used  test Ng  in cucumber?
+## yes,we  used  the class called AbstractTestNGCucumbertests .
+## in  step defination,we have  used  annitation like
+## @given,@when,@Then....
+
+## how  can  u  configur the framework?
+## 1.create  mavan  test build
+## 2.add  dependencies  of
+## selenium
+## webdrivermanager
+## testng
+## cucumber-java
+## cucumber-testng
+## 3.go to  burger icon ,choose  settings then plugin   add
+## cucumber for java and gherkin
+## 4.create  3  dir's  namely
+## features ,stepdefinatios n test runner
+## 5.create  feature  file  with  extention .feature
+## 5.now  create step defination java class
+## 7.now  using cucumber  options create runner file class
+## 8.run  runner file  and  copy the code from console and
+## past it  in stepdefination file.
+## now write the code in step defination as per the requirement.
