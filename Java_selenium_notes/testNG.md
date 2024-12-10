@@ -262,3 +262,130 @@ class Main {
 ## step 4:
 ## to get key into java file use properties method
 ## driver.get(p.getProperty("url"));
+
+## Test NG:
+
+## what  is  testNg?
+## Test Ng  is  test Next  Generation .
+## its  a  testing  framework which is  used  to  organize  our test cases.
+## here  annotations plays important role.
+## with out  using main(),test cases can be  designed using annotations.
+## About  Annotations:
+## its  starts  with  @ symbol.
+## it  will centerilized  the  flow.when we  use  annotations then we should  not  use main()
+## annotations in testNG are
+## @beforeSuit  @AfterSuite
+## @BeforeTest   @AfterTest
+## @BeforeClass   @AfterClass
+## @BeforeMethod   @AfterMethod
+## @Test
+
+## how  the  execution flow:
+## bs->bt->bc->bm->@Test->Am->Ac->At->As
+## what do u ment by groping?
+
+## we can  do grouping  with  the  help  of  @Test annotaion.
+## by using  "groups"  with  particular name we will group for methods
+## Ex:
+```java
+@Test(groups={"dillep","leelakanth"});
+public void  input()
+{
+}
+
+@Test(groups={"leelakanth"});
+public  void output()
+{
+}
+@Test(groups={"dillep"})
+public  void  get()
+{
+}
+```
+## can  we  achive  parallel  execution?
+## yes we can
+## in testng.xml  file  we  have  to  use parallel="classes"
+
+## is there any  annotaion to  execute  same  method  multiple times ?
+## yes,the  annotaion called  InvocationCount is  used
+```java
+@Test(InvocationCount=10)
+public  void  input()
+{
+}
+```
+## what  is the use of DependsOn ?
+## Assertions?
+## hard  assertion--->serious issues
+## soft assertion---> cosmotic isssues
+## go through with  notes
+
+## where u get testNG dependency ?
+## there  is  mvn repository, from here we will search for test ng dependency.
+## select new version ,copy it and past it in pom.xml file
+
+## which  version of testng?
+## 7.2.0
+## what  is  data provider?
+
+-----------------------------------------------------------------------
+## selenium
+## where u get selenium dependency ?
+## there  is  mvn repository, from here we will search for selenium dependency.
+## select new version ,copy it and past it in pom.xml file.
+
+## which version of selenium?
+## selenium 4
+
+## what  are advantages  in selenium 4  when  compare to selenium 3?
+## which  test  build u r using?
+
+## maven test build.
+## y maven?
+## we can easily  add the dependencies.
+
+## any  other  test builds?
+## gradle
+
+## external lib?
+## where we write testing code?
+
+## can  u launch  chrome browser?
+
+## how can  u  check  website  title n given title is same or not?
+## using  assetion we can do
+## code
+
+## how to get   title of web page
+## diver.getTitle()
+## how to get   current url of web page
+## diver.getCurrentUrl()
+
+## how to get   sourcecode of web page
+## diver.getpageSource()
+
+## what  are  basic  methods  in selenium?
+## getTitle()
+## getCurrenturl()
+## getPageSource()
+
+## what  are locators  in selenium?
+```java
+id,
+name,
+classname
+linktext
+partial link text
+tagname
+xpath
+css selector
+```
+## go  to some  site  find  xpath for mobiles from flipkart?
+
+## go to  amazon and search for samsumg phone and write  code to get price of it?
+
+## same loactors  like id,
+## name,
+## classname which  u will prefer?
+
+## id ,because  its unique
