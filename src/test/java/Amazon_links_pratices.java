@@ -17,7 +17,7 @@ public class Amazon_links_pratices {
         System.out.println("Total= "+ l.size());
         while (i <=l.size()){
             System.out.println(l.get(i).getText());
-            System.out.println(i+" . " +l.get(i).getAttribute("class"));
+            System.out.println(i+" . " +l.get(i).getAttribute("id"));
             i++;
         }
         driver.close();
