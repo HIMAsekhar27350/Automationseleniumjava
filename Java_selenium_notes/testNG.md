@@ -389,3 +389,16 @@ css selector
 ## classname which  u will prefer?
 
 ## id ,because  its unique
+
+## java  Questions:
+## 1.Exception handling
+## 2.constructors
+## 3.this keyword
+## 4.oops concepts
+## a.class  b.object c.abstraction  d.encapsulation  e.polymorphism
+## f.inheritance
+## 5.loops (while loop,for loop,for each loop)
+## 6.access modifiers(static,final)
+## 7. branching statements(if,if else,switch,nested if)
+## 8.Strings n string methods
+## 9.collections (list,hashset ,hashmap)
