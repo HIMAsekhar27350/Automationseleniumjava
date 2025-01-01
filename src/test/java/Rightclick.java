@@ -17,7 +17,7 @@ public class Rightclick {
         WebElement right_cilck = driver.findElement(By.id("hot-spot"));
         //WebElement drop = drag.findElement(By.xpath("//div[@id = 'column-b']"));
         a.contextClick(right_cilck);
-        a.perform();
+        a.build().perform();
         Thread.sleep(3000);
         Alert a1 = driver.switchTo().alert();
         a1.accept();

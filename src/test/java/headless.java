@@ -9,7 +9,7 @@ public class headless {
         WebDriverManager.chromedriver().setup();
         ChromeOptions options=new ChromeOptions();
         options.addArguments("--headless");
-        driver=new ChromeDriver();
+        driver=new ChromeDriver(options);
         driver.get("https://www.google.com");
         System.out.println("The Chrome Drive is lanched");
         driver.quit();

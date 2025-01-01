@@ -15,7 +15,8 @@ public class DragandDrop {
         Thread.sleep(3000);
         Actions a = new Actions(driver);
         WebElement drag = driver.findElement(By.xpath("//div[@id = 'column-a']"));
-        WebElement drop = drag.findElement(By.xpath("//div[@id = 'column-b']"));
+        WebElement drop = driver.findElement(By.xpath("//div[@id = 'column-b']"));
+        a.dragAndDrop(drop,drag);
         a.dragAndDrop(drag,drop);
         a.perform();
     }
