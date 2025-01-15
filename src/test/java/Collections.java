@@ -14,6 +14,8 @@ public class Collections {
         System.out.println(l.get(2));
         System.out.println(l.get(4));
         System.out.println("List size = "+l.size());
+        System.out.println(l.remove(0));
+        System.out.println(l);
 
 
     }

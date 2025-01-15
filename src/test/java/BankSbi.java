@@ -35,12 +35,16 @@ public class BankSbi {
     public static void main(String[] args) {
         BankSbi bank = new BankSbi();
         BankSbi bank1 =new BankSbi();
+        BankSbi bank2=new BankSbi();
         bank.getBankDetails("Hima Sekhar","Savings","45616316546",500);
         bank.putdetails();
         totalamounts1();
         System.out.println("*************************************");
         bank1.getBankDetails("Roman reings","Current","2457846416",1000);
         bank1.putdetails();
+        totalamounts1();
+        bank2.getBankDetails("Super hero","Savings","123654789",20000);
+        bank2.putdetails();
         totalamounts1();
 
     }

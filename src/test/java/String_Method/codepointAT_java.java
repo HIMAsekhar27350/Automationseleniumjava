@@ -10,7 +10,7 @@ public class codepointAT_java {
             System.out.println(num+" = "+name.charAt(i));
             num++;
         }
-        int codepoint= name.codePointAt(0);
+        int codepoint= name.codePointAt(3);
         System.out.println("codePointAt = "+codepoint);
     }
 }
