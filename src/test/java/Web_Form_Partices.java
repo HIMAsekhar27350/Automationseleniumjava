@@ -38,7 +38,7 @@ public class Web_Form_Partices {
         Select ele1 = new Select(driver.findElement(By.name("my-select")));
         ele1.selectByValue("2");
         Thread.sleep(3000);
-        driver.findElement(By.name("my-file")).sendKeys("C:\\Users\\HIMA SEKHAR V\\OneDrive\\Desktop\\9346744413h@gmail.com.pdf");
+        //driver.findElement(By.name("my-file")).sendKeys("C:\\Users\\HIMA SEKHAR V\\OneDrive\\Desktop\\9346744413h@gmail.com.pdf");
         Thread.sleep(3000);
         driver.findElement(By.name("my-check")).click();
         Thread.sleep(3000);
