@@ -1,8 +1,8 @@
 # java program to display n number of even numbers
 
-![A](Even Numbers.png)
+![A](Even_Numbers.png)
 # java program to display n number of odd numbers.
-![A](Odd numbers.png)
+![A](Odd_numbers.png)
 # java program to find sum of all the number of up to n.
 ![A](sum_of_n_numbers.png)
 # java program to find sum of even numbers.
